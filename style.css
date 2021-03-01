@@ -1,0 +1,86 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+  margin: 0 auto;
+  background-image: url(images/メイン背景.jpg);
+  height: 700px;
+  background-size: cover;
+}
+
+.filter{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 700px;
+}
+
+
+
+
+.title{
+  
+  height: 300px;
+  
+}
+
+
+
+.title h1{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  color: #fff;
+}
+
+#quiz-count{
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+
+
+.container{
+  margin: 0 20px;
+  
+}
+
+.question{
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.flex{
+  text-align: center;
+  
+}
+
+.flex button{
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #eb6100;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.flex button:active{
+  position: relative;
+  top: 3px;
+  color: #fff;
+  background-color: #eb6100;
+  box-shadow: none;
+}
+
+.btn{
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
